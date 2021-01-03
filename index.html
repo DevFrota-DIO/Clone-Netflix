@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Netflix</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Com esta ordem, no caso de Media Queries, o primeiro CSS a ser consultado será style.css -->
+    <link rel='stylesheet' type='text/css' media='screen' href='css/style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='css/media.css'>
+    <!--Na verdade, notei que, para ficar "redondinho", todos os estilos referentes 
+        deveriam ser colocados em um só arquivo.-->
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font/fonts.css">
+    <link rel="stylesheet" href="css/icos/icosAll.css">
+
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <!-- HEADER -->
+        <header class="primeiro">
+            <div class="netflixLogo">
+                <a id="logo" href="#home"><img src="img/netflix-logo.png" alt="Logo Netflix"></a>
+
+            </div>
+
+            <nav class="main-nav">
+                <a href="#home">Inicio</a>
+                <a href="#tvShows">Séries</a>
+                <a href="#movies">Filmes</a>
+                <a href="#originals">Bombando</a>
+                <a href="#">Minha Lista</a>
+
+            </nav>
+
+            <nav class="sub-nav">
+
+                <a href="#"><img class="searchico" src="css/icos/search.svg"></img>
+                </a>
+                <a href="#">Infantil</a>
+                <a href="#"><img class="notifyico" src="css/icos/notify.svg"></img>
+                </a>
+                <a href="#">Conta</a>
+            </nav>
+
+            <div class="seletorHeader">
+                <select id=generos>
+                    <option value="in">Inicio</option>
+                    <option value="sr">Series</option>
+                    <option value="mv">Filmes</option>
+                    <option value="bb">Bombando</option>
+                    <option value="ml">Minha Lista</option>
+                </select>
+
+            </div>
+        </header>
+        <!-- FIM HEADER -->
+
+
+
+        <div class="container">
+            <div class="seletor"><span class="etiqueta">Clone Netflix - HTML / CSS / JS</span></div>
+            <div class="filmes">
+
+                <!-- MAIN FILME PRINCIPAL -->
+                <main>
+                    <div class="principalMedia filme-principal ">
+                        <div class="container1">
+                            <img class="logoFilme" src="img/birBoxLogo.webp" alt="Logo do Filme">
+                            <p class="descricao">Uma misteriosa presença leva as pessoas ao suicídio. Cinco anos depois, uma sobrevivente e seus dois filhos saem em busca de um abrigo seguro.
+                            </p>
+                            <div class="botoes">
+                                <button role="button" class="botao">
+                                    <img class="imagico" src="css/icos/play3.svg"></img>
+                                    ASSISTIR AGORA
+                                </button>
+                                <button role="button" class="botao">
+                                    <img class="infoico" src="css/icos/info.svg"></img>
+                                    MAIS INFORMAÇÕES
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+                <!-- FIM MAIN FILME PRINCIPAL -->
+
+                <!-- Essa div não seria necessária, pois esse H1 deveria ficar na proxima div ☻-->
+                <div class="minhaLista">
+                    <h1>Minha Lista</h1>
+                </div>
+                <!-- FIM MINHA LISTA -->
+
+            </div>
+
+            <!-- MAIN CONTAINER -->
+            <section class="main-container">
+                <div class="owl-carousel owl-theme">
+
+                    <div class="box">
+                        <img src="img/carrossel1/mMaravilha.jpg" alt="">
+                    </div>
+                    <div class="box">
+                        <a href=""><img class="box2" src="img/carrossel1/grinch.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel1/fada.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel1/battleship.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel1/aGrey.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel1/sealTeam.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel1/selena.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel1/simpsons.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel1/sobrenatural.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel1/soul.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel1/tenet.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel1/theBoys.jpg" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="popular">
+                    <h1>Populares na Netflix</h1>
+                </div>
+
+                <div class="owl-carousel owl-theme">
+                    <div class="box">
+                        <img src="img/carrossel2/atracaoMortal.jpg" alt="">
+                    </div>
+                    <div class="box">
+                        <a href=""><img class="box2" src="img/carrossel2/blame.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel2/colheitaMal.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel2/deadRising.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel2/dunkleLust.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel2/furiaDragao.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel2/grito.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel2/mortadela.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel2/oChamado.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel2/pantaleao.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel2/ring.jpg" alt=""></a>
+                    </div>
+                    <div class="box">
+                        <a href=""><img src="img/carrossel2/wathctower.jpg" alt=""></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </div>
+
+    <!-- FIM MAIN CONTAINER -->
+
+    <!-- LINKS -->
+    <section class="link">
+        <div class="logos">
+            <a href="#"><i class="fab fa-facebook-square fa-2x logo"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x logo"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x logo"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x logo"></i></a>
+        </div>
+
+    </section>
+    <!-- END OF LINKS -->
+
+
+    <footer>
+        <div role="contentinfo" class="infoFooter">
+
+            <ul class="a-Footers">
+                <li class="liFooterInfo"><a class="a-Footer" href="#"><span class=" ">Idioma e
+                            legendas</span></a></li>
+                <li class="liFooterInfo"><a class="a-Footer" href="#"><span class=" ">Audiodescrição</span></a></li>
+                <li class="liFooterInfo"><a class="a-Footer" href="#"><span class=" ">Centro de
+                            ajuda</span></a></li>
+                <li class="liFooterInfo"><a class="a-Footer" href="#"><span class=" ">Cartão
+                            pré-pago</span></a></li>
+                <li class="liFooterInfo"><a class="a-Footer" href="#"><span class=" ">Imprensa</span></a>
+                </li>
+                <li class="liFooterInfo"><a class="a-Footer" href="#"><span class=" ">Informações</span></a></li>
+
+            </ul>
+            <ul class="a-Footers2">
+                <li class="liFooterInfo"><a class="a-Footer" href="#"><span class=" ">Carreiras</span></a>
+                </li>
+                <li class="liFooterInfo"><a class="a-Footer" href="#"><span class=" ">Termos
+                            de uso</span></a></li>
+                <li class="liFooterInfo"><a class="a-Footer" href="#"><span class=" ">Privacidade</span></a></li>
+                <li class="liFooterInfo"><a class="a-Footer" href="#"><span class=" ">Avisos
+                            legais</span></a></li>
+                <li class="liFooterInfo"><a class="a-Footer" href="#"><span class=" ">Preferências</span></a></li>
+
+                <li class="liFooterInfo"><a class="a-Footer" href="#"><span class=" ">Entre em
+                            contato</span></a></li>
+            </ul>
+
+            <div class="footer-copyright"><span>© 2020 Clone Netflix, By. Dev
+                    Frota.‎</span></div>
+        </div>
+
+    </footer>
+    </div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+    <script src="js/main.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+
+</body>
+
+</html>

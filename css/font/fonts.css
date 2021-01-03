@@ -1,0 +1,23 @@
+/* Fontes Externas*/
+
+@font-face {
+    font-family: "gallant-regular";
+    src: url("gallant/GALLANT.ttf") format("woff"), url("https://dafonttop.com/wp-data/g/212/15212/file/GALLANT.ttf") format("opentype"), url("https://dafonttop.com/wp-data/g/212/15212/file/GALLANT.ttf") format("truetype");
+}
+
+span.etiqueta {
+    font-family: "gallant-regular" !important;
+    font-size: 2rem;
+    text-transform: none;
+    float: right;
+    margin-right: 4.5rem;
+}
+
+
+/*Media*/
+
+@media (max-width: 500px) {
+    span.etiqueta {
+        font-size: 1rem;
+    }
+}

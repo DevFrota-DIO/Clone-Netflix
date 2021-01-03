@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2017 -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="150px" height="150px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 150 150"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .fil3 {fill:#E2DFF4}
+    .fil2 {fill:#F9F9F9}
+    .fil4 {fill:white;fill-opacity:0.188235}
+    .fil0 {fill:url(#id0)}
+    .fil1 {fill:url(#id1)}
+   ]]>
+  </style>
+  <linearGradient id="id0" gradientUnits="userSpaceOnUse" x1="75" y1="75" x2="75" y2="-0.001">
+   <stop offset="0" style="stop-opacity:1; stop-color:#FC5204"/>
+   <stop offset="1" style="stop-opacity:1; stop-color:#FC3B05"/>
+  </linearGradient>
+  <linearGradient id="id1" gradientUnits="userSpaceOnUse" xlink:href="#id0" x1="75" y1="150.001" x2="75.001" y2="75">
+  </linearGradient>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <circle class="fil0" cx="75" cy="75" r="75.001"/>
+  <path class="fil1" d="M150.001 75c0,41.422 -33.579,75.001 -75.001,75.001 -41.422,0 -75.001,-33.579 -75.001,-75.001l150.002 0z"/>
+  <g id="_1567599367920">
+   <path class="fil2" d="M54.492 117.481c-0.684,0 -1.369,-0.159 -2,-0.482 -1.47,-0.751 -2.395,-2.262 -2.395,-3.913l0 -76.172c0,-1.651 0.925,-3.162 2.394,-3.913 1.469,-0.751 3.236,-0.616 4.574,0.35l52.735 38.087c1.144,0.826 1.822,2.151 1.822,3.562 0,1.411 -0.678,2.736 -1.822,3.562l-52.735 38.086c-0.764,0.552 -1.666,0.833 -2.573,0.833l0 0z"/>
+  </g>
+  <g id="_1567599366544">
+   <path class="fil3" d="M50.097 75l0 38.086c0,1.651 0.925,3.162 2.394,3.913 0.632,0.323 1.317,0.482 2,0.482 0.908,0 1.81,-0.281 2.574,-0.833l52.735 -38.086c1.144,-0.826 1.822,-2.151 1.822,-3.562l-61.525 0z"/>
+  </g>
+  <path class="fil4" d="M104.885 116.904c-22.795,7.752 -34.06,-17.701 -10.913,-39.502 13.403,-12.625 25.851,-53.031 -16.553,-61.94 56.166,-2.813 79.974,83.587 27.466,101.442z"/>
+ </g>
+</svg>
